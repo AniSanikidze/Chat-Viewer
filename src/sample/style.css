@@ -1,0 +1,36 @@
+.button{
+     -fx-background-color: #425af5;
+     -fx-text-fill: #fff;
+     -fx-background-radius: 80px;
+     -fx-border-radius: 80px;
+     -fx-font-size: 14px;
+     -fx-indent: 55px;
+}
+
+.button:hover{
+    -fx-background-color: #1e1eeb;
+}
+
+.choice-box{
+    -fx-background-color: #425af5;
+ }
+
+.choice-box:hover{
+    -fx-background-color: #1e1eeb;
+}
+
+.choice-box .context-menu {
+-fx-background-color: #425af5;
+ }
+.choice-box .menu-item:focused {
+ -fx-background-color: #1e1eeb;
+  }
+.choice-box .menu-item > .label {
+ -fx-text-fill: white;
+  }
+.choice-box .label {
+-fx-text-fill: white;
+}
+.choice-box .menu-item:focused > .label {
+ -fx-text-fill: white;
+ }
